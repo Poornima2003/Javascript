@@ -27,3 +27,25 @@ console.log(Object.values(obj3));
 console.log(Object.entries(obj3));
 
 console.log(obj3.hasOwnProperty('7'))
+
+
+//object de-structuring
+
+const course={
+    coursename:'javascript',
+    price:'999'
+}
+const {coursename:name}=course
+console.log(name)
+
+//Json API
+
+// {
+//     name:"poornima",
+//     coursename:'javascript',
+//     price:'999'
+
+// }
+
+
+
