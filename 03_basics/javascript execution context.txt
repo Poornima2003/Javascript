@@ -1,0 +1,29 @@
+ ++++++++Javascript execution context++++++++++
+
+1)global execution context
+2)function execution context
+3)eval execution context
+
+ex:
+let val1=10
+let val2=5
+function add(num1,num2){
+    let total=num1+num2
+    return total
+}
+let result1=add(val1,val2)
+let result2=add(10,2)
+
+1)global execution =>this
+
+-memory phase             -execution phase
+val1=>undefined            val1=>10            
+val2=>undefined            val2=>5
+add=>defination            add=>newVariable enviorment+execution thread
+result1=>undefined                       |
+                                         |
+result2=>undefined
+
+
++++++++++++Call stack++++++++++
+
