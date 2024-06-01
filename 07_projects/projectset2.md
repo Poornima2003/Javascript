@@ -1,4 +1,4 @@
-# Project2
+# Project2:bmi calculator
 
 ## link
 [click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)

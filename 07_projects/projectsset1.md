@@ -6,7 +6,7 @@
 
 # solution code
 
-## project 1
+## project 1:backgroundcolor changer
 
 ```  javascript
 const buttons = document.querySelectorAll('.button');
